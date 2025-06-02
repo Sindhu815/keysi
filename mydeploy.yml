@@ -4,5 +4,5 @@
   tasks:
     - name: Copy the artifact to Downloads folder
       copy:
-        src: "/var/lib/jenkins/workspace/akash/target/sindhu-1.0-SNAPSHOT.jar"
+        src: "/var/lib/jenkins/workspace/akash/target/example-1.0-SNAPSHOT.jar"
         dest: "/home/jenkins/Downloads/t.jar"
